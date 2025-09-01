@@ -1,3 +1,9 @@
+
+jQuery(document).ready( function($) {
+ currentyear = new Date().getFullYear();
+ $('.currentyear').text(currentyear);
+        });
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -25,7 +31,3 @@ function includeHTML() {
     }
   }
 }  
-jQuery(document).ready( function($) {
- currentyear = new Date().getFullYear();
- $('.currentyear').text(currentyear);
-        });
